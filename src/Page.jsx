@@ -1,5 +1,5 @@
 import React from 'react'
-import CountDown from './CountDown'
+import Timer from './Timer'
 
 const Page = () => {
   return (
@@ -46,7 +46,7 @@ const Page = () => {
           Just help. Fast.
         </p>
       </section>
-      <CountDown />
+      <Timer />
       <section className='sec4'>
         <h3>You health shouldn't wait...Join the telegram group now!</h3>
         <a href="https://t.me/+4HjDLP9Kbq45OTE0">JOIN GROUP</a>
