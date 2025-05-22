@@ -11,7 +11,7 @@ const COUNTDOWN_TIME = {
 
 const STORAGE_KEY = "myCountdownTime"; // Change this name anytime!
 
-const Countdown = () => {
+const CountDown = () => {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
@@ -67,4 +67,4 @@ const Countdown = () => {
   );
 };
 
-export default Countdown;
+export default CountDown;
